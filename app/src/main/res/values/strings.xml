@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">InAppBillingDemo</string>
+    <string name="add">Add</string>
+    <string name="request">Request</string>
+    <string name="purchase">Purchase</string>
+    <string name="queryForPurchaseItem">Query For Purchase Item</string>
+    <string name="consumePurchase">ConsumePurchase</string>
+    <string name="subscribe">SubSciption</string>
+</resources>
