@@ -26,19 +26,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnPurchase;
     Button btnQueryForPurchaseItem;
     Button btnConsumePurchase;
-
-
     public static final String TAG = "MainActivity";
-
-
-
 //    To get rid of this you should clear the cache of Google play app on your android phone.
 //    When we make any in app purchase are details are maintained by the Google play services.
 //    So once the a product is purchased play Isolates the particular sku,to avoid duplicate purchase.
 //    Note - This is actually for testing purpose.
 //    Because Google play services maintains the record of all applications which have in app purchase or Oauth or any other facilities.
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -172,8 +165,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-
-
     private class AsyncConsumePurchase extends AsyncTask<String, Void, String> {
 
         @Override
@@ -187,6 +178,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             return "";
         }
     }
-
-
 }
